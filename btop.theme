@@ -34,25 +34,25 @@ theme[mem_fg]="#F5B700"
 
 # Network box
 theme[net_box]="#E5E7EB"
-theme[net_fg]="#3B82F6"
+theme[net_fg]="#1D4ED8"
 
 # Process box border
 theme[proc_box]="#E5E7EB"
 
 # Graph colors (from design system: yellow, blue, green, red)
 theme[graph_color_a]="#F5B700"
-theme[graph_color_b]="#3B82F6"
-theme[graph_color_c]="#22C55E"
-theme[graph_color_d]="#EF4444"
+theme[graph_color_b]="#1D4ED8"
+theme[graph_color_c]="#15803D"
+theme[graph_color_d]="#D12121"
 
 # Temperature
-theme[temp_fg]="#EF4444"
+theme[temp_fg]="#D12121"
 
 # Disk
 theme[disk_fg]="#6B7280"
 
 # Battery
-theme[batt_fg]="#22C55E"
+theme[batt_fg]="#15803D"
 
 # Placeholder
 theme[placeholder_fg]="#6B7280"

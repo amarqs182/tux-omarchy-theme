@@ -24,22 +24,22 @@ warning = "#F59E0B"
 danger = "#EF4444"
 info = "#3B82F6"
 
-# Normal ANSI colors (dark, readable on light bg)
+# Normal ANSI colors (dark, readable on light bg — all >= 4.5:1 on #F5F5F3)
 color0 = "#5A5A5A"
 color1 = "#CC3333"
-color2 = "#1B8B3F"
+color2 = "#15803D"
 color3 = "#7A5C00"
 color4 = "#2563EB"
 color5 = "#9333EA"
-color6 = "#0D9488"
+color6 = "#0F766E"
 color7 = "#374151"
 
-# Bright ANSI colors (match design system semantic tokens)
-color8 = "#6B7280"
-color9 = "#EF4444"
-color10 = "#22C55E"
-color11 = "#F5B700"
-color12 = "#3B82F6"
-color13 = "#A855F7"
-color14 = "#14B8A6"
+# Bright ANSI colors (adapted from design system tokens — all >= 4.5:1 on #F5F5F3)
+color8 = "#5F6B7A"
+color9 = "#D12121"
+color10 = "#15803D"
+color11 = "#8E6A00"
+color12 = "#1D4ED8"
+color13 = "#7C3AED"
+color14 = "#0F766E"
 color15 = "#1F2937"
