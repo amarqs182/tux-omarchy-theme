@@ -1,25 +1,26 @@
 # Amber Dawn — Omarchy Theme
 
-Warm light theme for [Omarchy](https://github.com/basecamp/omarchy) on Hyprland. Aligned with the **Omarchy Linux Light Design System** — Linux Yellow (#F5B700) accents on warm ivory (#F5F5F3), with high-contrast readable terminal colors (all ANSI colors ≥ 4.5:1 WCAG AA contrast).
+Light theme for [Omarchy](https://github.com/basecamp/omarchy) on Hyprland, aligned with the **Omarchy Linux Light Design System**. Linux Yellow (#F5B700) accents on warm ivory (#F5F5F3), with readable terminal colors (all ANSI ≥ 4.5:1 WCAG AA on #F5F5F3).
 
 ![preview](preview.png)
 
-## Design System Alignment
+## Design System
 
-This theme follows the **Omarchy Linux Light Design System** principles:
-
-| Token           | Value       | Usage                          |
-|-----------------|-------------|--------------------------------|
-| Background      | `#F5F5F3`   | Main background (warm ivory)   |
-| Surface         | `#ECECE8`   | Card/panel surfaces            |
-| Foreground      | `#222222`   | Primary text (14.57:1 AAA)     |
-| Linux Yellow    | `#F5B700`   | UI accent (borders, buttons)   |
-| Accent (dark)   | `#8E6A00`   | Terminal text accent (4.57:1)  |
-| Muted           | `#555B66`   | Secondary text (6.26:1)        |
-| Border          | `#E5E7EB`   | Dividers, selection bg         |
-| Success         | `#16803D`   | Green status (4.59:1)          |
-| Danger          | `#CD3A3A`   | Red status (4.51:1)            |
-| Info            | `#316DCE`   | Blue status (4.57:1)           |
+| Token            | Value     | Usage                              |
+|------------------|-----------|-------------------------------------|
+| Background       | `#F5F5F3` | Main background (warm ivory)        |
+| Surface          | `#FFFFFF` | Cards, modals, floating elements    |
+| Surface 2        | `#ECECE8` | Sidebar, secondary containers       |
+| Foreground       | `#222222` | Primary text (14.57:1 AAA)          |
+| Muted            | `#6B7280` | Secondary labels, metadata          |
+| Linux Yellow     | `#F5B700` | Primary accent (buttons, focus)     |
+| Yellow Hover     | `#FFD54A` | Hover and active highlights         |
+| Border           | `#E5E7EB` | Dividers, selection background      |
+| Soft Border      | `#D1D5DB` | Subtle separators                   |
+| Success          | `#22C55E` | Confirmations, online states        |
+| Warning          | `#F59E0B` | Attention, warnings                 |
+| Danger           | `#EF4444` | Errors, destructive actions         |
+| Info             | `#3B82F6` | Informational, links                |
 
 ### Design Principles
 
@@ -38,14 +39,16 @@ Global border radius: 12px
 
 | Slot      | Normal              | Bright              |
 |-----------|---------------------|---------------------|
-| Black     | `#555B66` (dim)     | `#69707E` (muted)   |
-| Red       | `#CD3A3A`           | `#B74D4D`           |
-| Green     | `#16803D`           | `#2A7E48`           |
-| Yellow    | `#8E6A00`           | `#906900`           |
-| Blue      | `#316DCE`           | `#4271AC`           |
-| Magenta   | `#934AD9`           | `#885DB2`           |
-| Cyan      | `#0D7E72`           | `#1A7D70`           |
-| White     | `#222222` (text)    | `#3D3D3D`           |
+| Black     | `#5A5A5A` (dim)     | `#6B7280` (muted)   |
+| Red       | `#CC3333`           | `#EF4444` (danger)  |
+| Green     | `#1B8B3F`           | `#22C55E` (success) |
+| Yellow    | `#7A5C00`           | `#F5B700` (primary) |
+| Blue      | `#2563EB`           | `#3B82F6` (info)    |
+| Magenta   | `#9333EA`           | `#A855F7`           |
+| Cyan      | `#0D9488`           | `#14B8A6`           |
+| White     | `#374151` (text)    | `#1F2937`           |
+
+All normal colors ≥ 4.5:1 contrast on `#F5F5F3`. Bright colors match design system semantic tokens (danger, success, primary, info).
 
 ## Installation
 
@@ -91,10 +94,10 @@ An example Alacritty config is included as `alacritty.example.toml`.
 
 ```
 amber-dawn/
-├── colors.toml          # Full palette (UI + 16 ANSI) — Omarchy Design System tokens
+├── colors.toml          # Full palette (UI + 16 ANSI) — Design System tokens
 ├── light.mode           # Marks theme as light mode
 ├── icons.theme          # Walker/menu icons
-├── neovim.lua           # Neovim colors
+├── neovim.lua           # Neovim colors (gruvbox base with DS palette)
 ├── vscode.json          # VS Code token colors
 ├── btop.theme           # btop system monitor theme
 ├── hermes-skin.yaml     # Hermes Agent TUI skin

@@ -1,4 +1,4 @@
-# Amber Dawn — Hermes TUI skin aligned with Omarchy Design System
+# Amber Dawn — Hermes TUI skin aligned with Omarchy Linux Light Design System
 # Linux Yellow (#F5B700) on #F5F5F3, high contrast for light terminals
 
 name: amber-dawn
@@ -7,18 +7,18 @@ description: "Omarchy Linux Light — Linux Yellow on warm ivory, high contrast 
 colors:
   # Banner
   banner_border: "#E5E7EB"
-  banner_title: "#8E6A00"
-  banner_accent: "#8E6A00"
-  banner_dim: "#69707E"
+  banner_title: "#F5B700"
+  banner_accent: "#F5B700"
+  banner_dim: "#6B7280"
   banner_text: "#222222"
 
   # UI
-  ui_accent: "#8E6A00"
-  ui_primary: "#8E6A00"
-  ui_label: "#8E6A00"
-  ui_ok: "#16803D"
-  ui_error: "#CD3A3A"
-  ui_warn: "#8E6A00"
+  ui_accent: "#F5B700"
+  ui_primary: "#F5B700"
+  ui_label: "#F5B700"
+  ui_ok: "#22C55E"
+  ui_error: "#EF4444"
+  ui_warn: "#F59E0B"
   ui_border: "#E5E7EB"
   ui_text: "#222222"
 
@@ -31,36 +31,36 @@ colors:
 
   # Status bar (light background)
   status_bar_bg: "#F5F5F3"
-  status_bar_text: "#555B66"
-  status_bar_strong: "#8E6A00"
-  status_bar_dim: "#69707E"
-  status_bar_good: "#16803D"
-  status_bar_warn: "#8E6A00"
-  status_bar_bad: "#CD3A3A"
-  status_bar_critical: "#B71C1C"
+  status_bar_text: "#6B7280"
+  status_bar_strong: "#F5B700"
+  status_bar_dim: "#6B7280"
+  status_bar_good: "#22C55E"
+  status_bar_warn: "#F59E0B"
+  status_bar_bad: "#EF4444"
+  status_bar_critical: "#DC2626"
 
   # Session
-  session_label: "#8E6A00"
-  session_border: "#69707E"
+  session_label: "#F5B700"
+  session_border: "#D1D5DB"
 
   # Voice
   voice_status_bg: "#F5F5F3"
 
   # Selection & completion (light bg)
   selection_bg: "#E5E7EB"
-  completion_menu_bg: "#F5F5F3"
+  completion_menu_bg: "#FFFFFF"
   completion_menu_current_bg: "#E5E7EB"
-  completion_menu_meta_bg: "#F5F5F3"
+  completion_menu_meta_bg: "#F8F8F8"
   completion_menu_meta_current_bg: "#E5E7EB"
 
   # Shell
-  shell_dollar: "#316DCE"
+  shell_dollar: "#3B82F6"
 
 branding:
-  agent_name: "Omarchy"
-  welcome: "Linux Light theme active. Type your message or /help for commands."
+  agent_name: "Hermes Agent"
+  welcome: "Amber Dawn — Linux Light theme active. Type your message or /help for commands."
   goodbye: "Goodbye! ⚕"
-  response_label: " ⚕ Omarchy "
+  response_label: " ⚕ Hermes "
   prompt_symbol: "❯"
   help_header: "(^_^)? Commands"
 

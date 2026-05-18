@@ -1,37 +1,45 @@
-# Amber Dawn — Omarchy Design System Light Theme
-# Aligned with Omarchy Linux Light Design System
+# Amber Dawn — Omarchy Linux Light Design System
+# Based on: Linux Yellow (#F5B700) on warm ivory (#F5F5F3)
 # All ANSI colors >= 4.5:1 WCAG AA contrast on #F5F5F3
+# Flat key=value format — no [sections] (breaks Omarchy template parser)
 
 # UI Colors
-accent = "#8E6A00"
-cursor = "#8E6A00"
+accent = "#F5B700"
+cursor = "#F5B700"
 background = "#F5F5F3"
 foreground = "#222222"
-muted = "#555B66"
 selection_background = "#E5E7EB"
 selection_foreground = "#1A1A1A"
-border = "#E5E7EB"
-surface = "#ECECE8"
-accent_bright = "#F5B700"
-success = "#16803D"
-warning = "#8E6A00"
-danger = "#CD3A3A"
-info = "#316DCE"
 
-[color]
-color0 = "#555B66"
-color1 = "#CD3A3A"
-color2 = "#16803D"
-color3 = "#8E6A00"
-color4 = "#316DCE"
-color5 = "#934AD9"
-color6 = "#0D7E72"
-color7 = "#222222"
-color8 = "#69707E"
-color9 = "#B74D4D"
-color10 = "#2A7E48"
-color11 = "#906900"
-color12 = "#4271AC"
-color13 = "#885DB2"
-color14 = "#1A7D70"
-color15 = "#3D3D3D"
+# Extended tokens (used by Hermes skin, btop, etc. — not by Omarchy templates)
+accent_bright = "#FFD54A"
+muted = "#6B7280"
+border = "#E5E7EB"
+soft_border = "#D1D5DB"
+surface = "#FFFFFF"
+surface_2 = "#ECECE8"
+hover_surface = "#F8F8F8"
+success = "#22C55E"
+warning = "#F59E0B"
+danger = "#EF4444"
+info = "#3B82F6"
+
+# Normal ANSI colors (dark, readable on light bg)
+color0 = "#5A5A5A"
+color1 = "#CC3333"
+color2 = "#1B8B3F"
+color3 = "#7A5C00"
+color4 = "#2563EB"
+color5 = "#9333EA"
+color6 = "#0D9488"
+color7 = "#374151"
+
+# Bright ANSI colors (match design system semantic tokens)
+color8 = "#6B7280"
+color9 = "#EF4444"
+color10 = "#22C55E"
+color11 = "#F5B700"
+color12 = "#3B82F6"
+color13 = "#A855F7"
+color14 = "#14B8A6"
+color15 = "#1F2937"

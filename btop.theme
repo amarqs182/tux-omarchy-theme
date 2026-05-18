@@ -1,5 +1,5 @@
-# Amber Dawn btop theme — Omarchy Design System aligned
-# Linux Yellow (#F5B700) accents on #F5F5F3, high contrast
+# Amber Dawn btop theme — Omarchy Linux Light Design System
+# Linux Yellow (#F5B700) on #F5F5F3, all colors from design system palette
 
 # Main background
 theme[main_bg]="#F5F5F3"
@@ -8,10 +8,10 @@ theme[main_bg]="#F5F5F3"
 theme[main_fg]="#222222"
 
 # Title color for boxes
-theme[title]="#8E6A00"
+theme[title]="#F5B700"
 
 # Highlight color for selected processes
-theme[hi_fg]="#F5B700"
+theme[hi_fg]="#FFD54A"
 
 # Selected background (cursor line)
 theme[selected_bg]="#E5E7EB"
@@ -21,38 +21,38 @@ theme[selected_fg]="#1A1A1A"
 
 # Process/thread state colors
 theme[proc_fg]="#222222"
-theme[proc_hi_fg]="#8E6A00"
+theme[proc_hi_fg]="#F5B700"
 theme[proc_selected_fg]="#1A1A1A"
 
 # CPU box colors
-theme[cpu_box]="#ECECE8"
-theme[cpu_fg]="#8E6A00"
+theme[cpu_box]="#E5E7EB"
+theme[cpu_fg]="#F5B700"
 
 # Memory box
-theme[mem_box]="#ECECE8"
-theme[mem_fg]="#8E6A00"
+theme[mem_box]="#E5E7EB"
+theme[mem_fg]="#F5B700"
 
 # Network box
-theme[net_box]="#ECECE8"
-theme[net_fg]="#316DCE"
+theme[net_box]="#E5E7EB"
+theme[net_fg]="#3B82F6"
 
 # Process box border
-theme[proc_box]="#ECECE8"
+theme[proc_box]="#E5E7EB"
 
-# Graph colors
+# Graph colors (from design system: yellow, blue, green, red)
 theme[graph_color_a]="#F5B700"
-theme[graph_color_b]="#316DCE"
-theme[graph_color_c]="#16803D"
-theme[graph_color_d]="#CD3A3A"
+theme[graph_color_b]="#3B82F6"
+theme[graph_color_c]="#22C55E"
+theme[graph_color_d]="#EF4444"
 
 # Temperature
-theme[temp_fg]="#CD3A3A"
+theme[temp_fg]="#EF4444"
 
 # Disk
-theme[disk_fg]="#555B66"
+theme[disk_fg]="#6B7280"
 
 # Battery
-theme[batt_fg]="#16803D"
+theme[batt_fg]="#22C55E"
 
 # Placeholder
-theme[placeholder_fg]="#69707E"
+theme[placeholder_fg]="#6B7280"
