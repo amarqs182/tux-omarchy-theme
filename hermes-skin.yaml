@@ -1,7 +1,7 @@
-# Amber Dawn — Hermes TUI skin aligned with Omarchy Linux Light Design System
+# Tux — Hermes TUI skin aligned with Omarchy Linux Light Design System
 # Linux Yellow (#F5B700) on #F5F5F3, high contrast for light terminals
 
-name: amber-dawn
+name: tux
 description: "Omarchy Linux Light — Linux Yellow on warm ivory, high contrast light mode skin"
 
 colors:
@@ -58,7 +58,7 @@ colors:
 
 branding:
   agent_name: "Hermes Agent"
-  welcome: "Amber Dawn — Linux Light theme active. Type your message or /help for commands."
+  welcome: "Tux — Linux Light theme active. Type your message or /help for commands."
   goodbye: "Goodbye! ⚕"
   response_label: " ⚕ Hermes "
   prompt_symbol: "❯"

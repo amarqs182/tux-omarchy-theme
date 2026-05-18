@@ -1,4 +1,4 @@
-# Amber Dawn — Omarchy Theme
+# Tux — Omarchy Theme
 
 Light theme for [Omarchy](https://github.com/basecamp/omarchy) on Hyprland, aligned with the **Omarchy Linux Light Design System**. Linux Yellow (#F5B700) accents on warm ivory (#F5F5F3), with readable terminal colors (all ANSI ≥ 4.5:1 WCAG AA on #F5F5F3).
 
@@ -56,11 +56,11 @@ All normal colors ≥ 4.5:1 contrast on `#F5F5F3`. Bright colors match design sy
 
 ```bash
 # Clone into your Omarchy themes directory
-git clone https://github.com/amarqs182/amber-dawn-omarchy-theme.git ~/.config/omarchy/themes/amber-dawn
+git clone https://github.com/amarqs182/tux-omarchy-theme.git ~/.config/omarchy/themes/tux
 
 # Apply the theme
-omarchy theme set amber-dawn
-# Or: Super+Alt+Space → Style → Theme → amber-dawn
+omarchy theme set tux
+# Or: Super+Alt+Space → Style → Theme → tux
 ```
 
 ### Hermes TUI Skin
@@ -70,10 +70,10 @@ The theme includes a Hermes Agent TUI skin for light terminal backgrounds:
 ```bash
 # Copy the skin
 mkdir -p ~/.hermes/skins
-cp ~/.config/omarchy/themes/amber-dawn/hermes-skin.yaml ~/.hermes/skins/amber-dawn.yaml
+cp ~/.config/omarchy/themes/tux/hermes-skin.yaml ~/.hermes/skins/tux.yaml
 
 # Activate in ~/.hermes/config.yaml
-# display.skin: amber-dawn
+# display.skin: tux
 ```
 
 ### Terminal Light Mode Detection
@@ -93,7 +93,7 @@ An example Alacritty config is included as `alacritty.example.toml`.
 ## Files
 
 ```
-amber-dawn/
+tux/
 ├── colors.toml          # Full palette (UI + 16 ANSI) — Design System tokens
 ├── light.mode           # Marks theme as light mode
 ├── icons.theme          # Walker/menu icons
@@ -103,7 +103,7 @@ amber-dawn/
 ├── hermes-skin.yaml     # Hermes Agent TUI skin
 ├── alacritty.example.toml  # Example Alacritty config with light mode env
 ├── backgrounds/
-│   └── amber-dawn.png   # Theme wallpaper
+│   └── tux.png          # Theme wallpaper
 ├── preview.png          # Preview with wallpaper
 ├── unlock.png           # Lock screen preview
 └── preview-unlock.png   # Lock screen preview (no wallpaper)
@@ -111,7 +111,7 @@ amber-dawn/
 
 ## Generated Components (22+)
 
-When `omarchy theme set amber-dawn` runs, Omarchy auto-generates configs for:
+When `omarchy theme set tux` runs, Omarchy auto-generates configs for:
 
 Hyprland, Alacritty, Ghostty, Kitty, Foot, Waybar, Walker, Mako, Hyprlock, SwayOSD, Chromium, Obsidian, Neovim, btop, Helix, Gum, Keyboard RGB, VS Code, and more.
 
