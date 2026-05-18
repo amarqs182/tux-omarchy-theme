@@ -1,40 +1,51 @@
 # Amber Dawn — Omarchy Theme
 
-Warm light theme for [Omarchy](https://github.com/basecamp/omarchy) on Hyprland. Amber/gold accents on soft ivory background, with high-contrast readable terminal colors (all ANSI colors ≥ 4.5:1 WCAG AA contrast).
+Warm light theme for [Omarchy](https://github.com/basecamp/omarchy) on Hyprland. Aligned with the **Omarchy Linux Light Design System** — Linux Yellow (#F5B700) accents on warm ivory (#F5F5F3), with high-contrast readable terminal colors (all ANSI colors ≥ 4.5:1 WCAG AA contrast).
 
 ![preview](preview.png)
 
-## Design Principles
+## Design System Alignment
 
-- **Wallpaper-derived:** Colors extracted from the golden accent point in the wallpaper
-- **High contrast:** foreground/background = 13.98:1 (AAA), accent/background = 4.51:1 (AA), no color below 4.5:1
-- **Warm temperature:** All 16 ANSI colors follow warm tones — no pure cold hues
-- **Visual hierarchy:** foreground > accent > muted > background
-- **Predictable semantics:** ANSI color slots are coherent in a light theme context (black = dim, white = text)
+This theme follows the **Omarchy Linux Light Design System** principles:
 
-## Color Palette
+| Token           | Value       | Usage                          |
+|-----------------|-------------|--------------------------------|
+| Background      | `#F5F5F3`   | Main background (warm ivory)   |
+| Surface         | `#ECECE8`   | Card/panel surfaces            |
+| Foreground      | `#222222`   | Primary text (14.57:1 AAA)     |
+| Linux Yellow    | `#F5B700`   | UI accent (borders, buttons)   |
+| Accent (dark)   | `#8E6A00`   | Terminal text accent (4.57:1)  |
+| Muted           | `#555B66`   | Secondary text (6.26:1)        |
+| Border          | `#E5E7EB`   | Dividers, selection bg         |
+| Success         | `#16803D`   | Green status (4.59:1)          |
+| Danger          | `#CD3A3A`   | Red status (4.51:1)            |
+| Info            | `#316DCE`   | Blue status (4.57:1)           |
 
-| Component       | Color         | Usage                          |
-|-----------------|---------------|--------------------------------|
-| Background      | `#EDE8E6`     | Main background (warm ivory)   |
-| Foreground      | `#2E2A28`     | Primary text (warm brown)      |
-| Cursor          | `#9A6606`     | Terminal cursor                |
-| Accent          | `#B07508`     | Amber accent (borders, highlights) |
-| Selection bg    | `#C4BCB6`     | Text selection background      |
-| Selection fg    | `#1E1A18`     | Selected text                  |
+### Design Principles
 
-### ANSI 16 Colors
+- **Simplicity** — Remove unnecessary visual noise
+- **Consistency** — Predictable spacing, shadows, and interactions
+- **Breathing Space** — Large padding and calm layouts
+- **Linux Identity** — Inspired by open-source philosophy and Tux
+
+### 8px Grid System
+
+Spacing scale: 4 · 8 · 16 · 24 · 32 · 48 · 64
+
+Global border radius: 12px
+
+## ANSI 16 Colors
 
 | Slot      | Normal              | Bright              |
 |-----------|---------------------|---------------------|
-| Black     | `#6A6460` (dim)     | `#645C58` (dim)     |
-| Red       | `#AE3C3C`           | `#C63838`           |
-| Green     | `#3E6E22`           | `#3E6E20`           |
-| Yellow    | `#8E6010`           | `#8E6010`           |
-| Blue      | `#2E6BA6`           | `#2E6BA6`           |
-| Magenta   | `#9A4E7A`           | `#9A4E7A`           |
-| Cyan      | `#1E7068`           | `#1E7068`           |
-| White     | `#3A3634` (text)    | `#524E4C`           |
+| Black     | `#555B66` (dim)     | `#69707E` (muted)   |
+| Red       | `#CD3A3A`           | `#B74D4D`           |
+| Green     | `#16803D`           | `#2A7E48`           |
+| Yellow    | `#8E6A00`           | `#906900`           |
+| Blue      | `#316DCE`           | `#4271AC`           |
+| Magenta   | `#934AD9`           | `#885DB2`           |
+| Cyan      | `#0D7E72`           | `#1A7D70`           |
+| White     | `#222222` (text)    | `#3D3D3D`           |
 
 ## Installation
 
@@ -80,7 +91,7 @@ An example Alacritty config is included as `alacritty.example.toml`.
 
 ```
 amber-dawn/
-├── colors.toml          # Full palette (UI + 16 ANSI)
+├── colors.toml          # Full palette (UI + 16 ANSI) — Omarchy Design System tokens
 ├── light.mode           # Marks theme as light mode
 ├── icons.theme          # Walker/menu icons
 ├── neovim.lua           # Neovim colors
@@ -95,7 +106,7 @@ amber-dawn/
 └── preview-unlock.png   # Lock screen preview (no wallpaper)
 ```
 
-## Generated Components (26+)
+## Generated Components (22+)
 
 When `omarchy theme set amber-dawn` runs, Omarchy auto-generates configs for:
 

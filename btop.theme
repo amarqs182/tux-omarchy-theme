@@ -1,85 +1,58 @@
-# Amber Dawn btop theme — warm amber on soft ivory, high contrast
+# Amber Dawn btop theme — Omarchy Design System aligned
+# Linux Yellow (#F5B700) accents on #F5F5F3, high contrast
 
-# Main background, empty for terminal default
-theme[main_bg]="#EDE8E6"
+# Main background
+theme[main_bg]="#F5F5F3"
 
 # Main text color
-theme[main_fg]="#2E2A28"
+theme[main_fg]="#222222"
 
 # Title color for boxes
-theme[title]="#2E2A28"
+theme[title]="#8E6A00"
 
-# Highlight color for keyboard shortcuts
-theme[hi_fg]="#8E6010"
+# Highlight color for selected processes
+theme[hi_fg]="#F5B700"
 
-# Background color of selected item in processes box
-theme[selected_bg]="#D8D0CA"
+# Selected background (cursor line)
+theme[selected_bg]="#E5E7EB"
 
-# Foreground color of selected item in processes box
-theme[selected_fg]="#8E6010"
+# Selected text
+theme[selected_fg]="#1A1A1A"
 
-# Color of inactive/disabled text
-theme[inactive_fg]="#6A6460"
+# Process/thread state colors
+theme[proc_fg]="#222222"
+theme[proc_hi_fg]="#8E6A00"
+theme[proc_selected_fg]="#1A1A1A"
 
-# Color of text appearing on top of graphs
-theme[graph_text]="#8E6010"
+# CPU box colors
+theme[cpu_box]="#ECECE8"
+theme[cpu_fg]="#8E6A00"
 
-# Background color of the percentage meters
-theme[meter_bg]="#D8D0CA"
+# Memory box
+theme[mem_box]="#ECECE8"
+theme[mem_fg]="#8E6A00"
 
-# Misc colors for processes box
-theme[proc_misc]="#9A6606"
+# Network box
+theme[net_box]="#ECECE8"
+theme[net_fg]="#316DCE"
 
-# CPU, Memory, Network, Proc box outline colors
-theme[cpu_box]="#2E6BA6"
-theme[mem_box]="#3E6E22"
-theme[net_box]="#A83838"
-theme[proc_box]="#8E6010"
+# Process box border
+theme[proc_box]="#ECECE8"
 
-# Box divider line and small boxes line color
-theme[div_line]="#6A6460"
+# Graph colors
+theme[graph_color_a]="#F5B700"
+theme[graph_color_b]="#316DCE"
+theme[graph_color_c]="#16803D"
+theme[graph_color_d]="#CD3A3A"
 
-# Temperature graph color (Green -> Yellow -> Red)
-theme[temp_start]="#3E6E22"
-theme[temp_mid]="#8E6010"
-theme[temp_end]="#A83838"
+# Temperature
+theme[temp_fg]="#CD3A3A"
 
-# CPU graph colors (Teal -> Amber)
-theme[cpu_start]="#1E7068"
-theme[cpu_mid]="#1E7068"
-theme[cpu_end]="#8E6010"
+# Disk
+theme[disk_fg]="#555B66"
 
-# Mem/Disk free meter (Blue -> Teal)
-theme[free_start]="#2E6BA6"
-theme[free_mid]="#2E6BA6"
-theme[free_end]="#1E7068"
+# Battery
+theme[batt_fg]="#16803D"
 
-# Mem/Disk cached meter (Mauve -> Blue)
-theme[cached_start]="#9A4E7A"
-theme[cached_mid]="#2E6BA6"
-theme[cached_end]="#2E6BA6"
-
-# Mem/Disk available meter (Amber -> Red)
-theme[available_start]="#8E6010"
-theme[available_mid]="#AE3C3C"
-theme[available_end]="#A83838"
-
-# Mem/Disk used meter (Green -> Teal)
-theme[used_start]="#3E6E22"
-theme[used_mid]="#1E7068"
-theme[used_end]="#1E7068"
-
-# Download graph colors (Amber -> Red)
-theme[download_start]="#8E6010"
-theme[download_mid]="#AE3C3C"
-theme[download_end]="#A83838"
-
-# Upload graph colors (Green -> Teal)
-theme[upload_start]="#3E6E22"
-theme[upload_mid]="#1E7068"
-theme[upload_end]="#1E7068"
-
-# Process box color gradient (Teal -> Amber)
-theme[process_start]="#1E7068"
-theme[process_mid]="#8E6010"
-theme[process_end]="#8E6010"
+# Placeholder
+theme[placeholder_fg]="#69707E"

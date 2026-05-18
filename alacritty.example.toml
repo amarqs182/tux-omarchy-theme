@@ -1,27 +1,47 @@
-general.import = [ "~/.config/omarchy/current/theme/alacritty.toml" ]
+[colors.primary]
+background = "#F5F5F3"
+foreground = "#222222"
 
-[env]
-TERM = "xterm-256color"
-HERMES_TUI_LIGHT = "1"
-COLORFGBG = "0;15"
+[colors.cursor]
+text = "#F5F5F3"
+cursor = "#8E6A00"
 
-[terminal]
-osc52 = "CopyPaste"
+[colors.vi_mode_cursor]
+text = "#F5F5F3"
+cursor = "#8E6A00"
 
-[font]
-normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
-bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
-italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
-size = 9
+[colors.search.matches]
+foreground = "#F5F5F3"
+background = "#8E6A00"
 
-[window]
-padding.x = 14
-padding.y = 14
-decorations = "None"
+[colors.search.focused_match]
+foreground = "#F5F5F3"
+background = "#CD3A3A"
 
-[keyboard]
-bindings = [
-{ key = "Insert", mods = "Shift", action = "Paste" },
-{ key = "Insert", mods = "Control", action = "Copy" },
-{ key = "Return", mods = "Shift", chars = "\u001B\r" }
-]
+[colors.footer_bar]
+foreground = "#F5F5F3"
+background = "#222222"
+
+[colors.selection]
+text = "#1A1A1A"
+background = "#E5E7EB"
+
+[colors.normal]
+black = "#555B66"
+red = "#CD3A3A"
+green = "#16803D"
+yellow = "#8E6A00"
+blue = "#316DCE"
+magenta = "#934AD9"
+cyan = "#0D7E72"
+white = "#222222"
+
+[colors.bright]
+black = "#69707E"
+red = "#B74D4D"
+green = "#2A7E48"
+yellow = "#906900"
+blue = "#4271AC"
+magenta = "#885DB2"
+cyan = "#1A7D70"
+white = "#3D3D3D"
